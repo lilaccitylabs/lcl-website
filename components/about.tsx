@@ -1,14 +1,17 @@
 export default function About() {
   return (
-    <section className="py-20 sm:py-24">
+    <section className="border-t border-border py-20 sm:py-24">
       <div className="mx-auto max-w-[720px] px-6">
-        <p className="font-mono text-sm text-text-muted">{"// about"}</p>
+        <h2 className="text-xl font-medium text-foreground sm:text-2xl">
+          About us
+        </h2>
 
         <p className="mt-8 text-base leading-relaxed text-text-body sm:text-lg">
-          I&apos;m Nathan, a full-stack developer working across Node.js,
-          TypeScript, and Dart/Flutter. I got tired of guessing what to build, so
-          I built a system to find out. Everything here — from the data pipelines
-          to the apps to this website — is built end-to-end by one person.
+          Lilac City Labs is a small software company based in Spokane, WA. Our
+          team combines full-stack engineering with hands-on CME program
+          management experience. We&apos;re building the tool we wish existed
+          &mdash; modern, affordable, and designed for the people who actually
+          use it every day.
         </p>
       </div>
     </section>

@@ -65,7 +65,7 @@ export async function POST(req: NextRequest) {
       from: "Nathan <nathan@lilac-city-labs.com>",
       to: email,
       subject: "Welcome to Lilac City Labs",
-      text: `Thanks for subscribing! I'll send you updates when I ship new apps and share discoveries from the opportunity pipeline.\n\nExpect emails about new product launches, interesting market insights, and what I'm learning building software for underserved markets.\n\nCheck out the site: https://lilac-city-labs.com\n\n— Nathan`,
+      text: `Thanks for your interest in our CME platform! We'll let you know as soon as it's ready for early access.\n\nWe're building a modern, affordable alternative to legacy CME management software — with transparent pricing, PARS-ready reporting, and a clean experience for both admins and learners.\n\nLearn more: https://lilac-city-labs.com\n\n— The Lilac City Labs Team`,
     });
 
     return NextResponse.json({ success: true });
